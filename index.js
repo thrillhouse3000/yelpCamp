@@ -8,7 +8,6 @@ const path = require('path');
 const ejsMate = require('ejs-mate');
 const session = require('express-session');
 const flash = require('connect-flash')
-const { campgroundSchema, reviewSchema } = require('./schemas.js');
 const ExpressError = require('./utilities/ExpressError')
 const methodOverride = require('method-override');
 const passport = require('passport');
